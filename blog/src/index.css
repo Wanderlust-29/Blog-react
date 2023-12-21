@@ -1,0 +1,23 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

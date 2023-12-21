@@ -1,0 +1,64 @@
+p {
+  margin: 0;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+}
+.post header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.post h1 {
+  color: #7209b7;
+  font-size: 2.8em;
+  margin: 2rem 0;
+}
+
+.post section {
+  margin-bottom: 2rem;
+}
+
+.post section > p {
+  color: black;
+}
+
+.post h2 {
+  font-size: 2.2rem;
+  color: #3a0ca3;
+}
+
+.post code {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.post footer article {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  background-color: #4361ee;
+}
+
+.post footer img {
+  grid-column: 1;
+}
+.post footer p {
+  font-size: 1.8rem;
+  grid-column: 2;
+  align-self: center;
+  justify-self: center;
+  color: #f1f1f1;
+  padding: 0;
+}
