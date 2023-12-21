@@ -3,6 +3,11 @@ h2 {
   font-family: Poppins, sans-serif;
 }
 
+h2 {
+  color: #7209b7;
+  font-weight: 700;
+}
+
 main > h1 {
   font-size: 3.2em;
   text-transform: uppercase;
@@ -28,33 +33,30 @@ li {
   list-style: none;
 }
 
-article {
+article:not(.post) {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-figure {
+article:not(.post) figure {
   margin: 0;
 }
 
-article img {
+article:not(.post) img {
   max-width: 100%;
   height: auto;
 }
 
-button {
+article:not(.post) button {
   background-color: #4361ee;
   border: none;
   color: #f1f1f1;
   padding: 0.5rem 2rem;
 }
 
-h2 {
-  color: #7209b7;
-  font-weight: 700;
-}
+
 
 p {
   padding-bottom: 1.5rem;

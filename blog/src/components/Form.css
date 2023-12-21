@@ -1,0 +1,14 @@
+fieldset{
+    display:flex;
+    flex-direction:column;
+    border:none;
+    justify-content:space-between;
+}
+
+fieldset h3{
+    margin: 0;
+}
+
+fieldset input{
+    margin-bottom: 2rem;
+}

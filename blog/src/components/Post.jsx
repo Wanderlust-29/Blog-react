@@ -1,11 +1,12 @@
 import React from "react";
 import "./Post.css";
+import Form from './Form.jsx'
 
 const Post = ({ post, switchToPost }) => {
   return (
     <>
       <article className="post">
-        <button onClick={() => switchToPost(null)}>Retour au blog</button>
+        <button className="prev" onClick={() => switchToPost(null)}>Retour au blog</button>
         <header>
           <figure>
             <img src={post.image} alt={post.title} />
@@ -23,6 +24,8 @@ const Post = ({ post, switchToPost }) => {
           </article>
         </footer>
       </article>
+      <h3>Commentaires :</h3>
+      <Form />
     </>
   );
 };

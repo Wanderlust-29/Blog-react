@@ -8,7 +8,7 @@ const Blog = ({ posts, switchToPost }) => {
       <ul>
         {posts.map((post, i) => (
           <li key={i}>
-            <article>
+            <article className="items">
               <header>
                 <figure>
                   <img
